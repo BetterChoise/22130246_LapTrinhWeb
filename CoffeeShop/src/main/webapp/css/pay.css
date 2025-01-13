@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #6b4f4f;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section label{
+    margin-bottom: 5px;
+}
+
+.infor_list {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    display: flex;
+}
+.order-summary {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.order-summary h3 {
+    margin-top: 0;
+}
+.order-summary p {
+    margin: 5px 0;
+}
+.total {
+    font-weight: bold;
+    color: #6b4f4f;
+}
+.pay-buttom {
+    width: 100%;
+    padding: 15px;
+    background-color: #6b4f4f;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pay-buttom:hover {
+    background-color: #533a3a;
+}
+.cart-table td {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+.cart-table .action-btn {
+    background-color: #6b4f4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.cart-table .action-btn:hover {
+    background-color: #533a3a;
+}
+
+.cart-table th,
+.cart-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.Invoice-total{
+    margin-top: 30px;
+    display: flex;
+    right: 0;
+    margin-left: 330px;
+}
+.Invoice-total_num{
+    margin-left: 59px;
+}

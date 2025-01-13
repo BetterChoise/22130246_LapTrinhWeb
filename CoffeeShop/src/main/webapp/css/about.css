@@ -1,0 +1,122 @@
+.about_body{
+    position: relative;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fBE7D3;
+}
+.about_readmore p{
+    color: black;
+}
+.about_main{
+    width: 80%;   
+    display: flex;
+    column-gap: 5%;
+}
+.about_container{
+    width: 35%;
+    margin-top: 75px;
+}
+.about_container h1{
+    text-align: center;
+}
+.about_slideshow{
+    height: 500px;
+    width: 751.01px;
+    vertical-align: middle;
+}
+.about_list_img{
+    position: relative;
+}
+.about_list_img img{
+    height: 400px;
+    width: 751.01px;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+.about_readmore{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    top: 50px;
+    left: 30%;
+    transition: all .5s linear;
+    background: transparent;
+}
+.about_readmore::before{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    background-color: #B0A695;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform-origin:bottom left;
+    transform: scale(0);
+    transition: .4s linear transform;
+}
+.about_readmore::after{
+    position: absolute;
+    background-color: #776B5D;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: scale(0);
+    transition: transform .4s linear;
+    transform-origin: top right;
+}
+.about_readmore:hover:before, .about_readmore:hover:after{
+    transform: scale(1);
+}
+.about_readmore:hover{
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+.about_readmore:hover span{
+    color:white;
+}
+.about-readmore_body{
+    text-decoration: none;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@keyframes fade {
+    from {opacity: .6} 
+    to {opacity: 1}
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    color: white;
+    padding: 16px;
+    user-select: none;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.prev{
+    left: 0;
+}
+.next {
+   right: 0;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);  
+}

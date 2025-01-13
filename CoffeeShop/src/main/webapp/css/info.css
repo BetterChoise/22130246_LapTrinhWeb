@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+a{
+    text-decoration: none;
+ }
+header{
+    height: 800px;
+    padding-bottom: 20px;
+ }
+
+header .header_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px; 
+    background: url('img/background1.jpg') no-repeat; 
+    overflow: hidden; /* Đảm bảo nội dung không vượt ra ngoài */
+    background-size: cover;
+    z-index: -1;
+}
+.info_menu{
+    font-family:  sans-serif;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-bottom:  1px solid #f4f4f4;
+    display: flex;
+    background-color: rgba(186, 158, 131,0.4);
+}
+.logo{
+    padding-left: 20px;
+    width: 80px;
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+}
+
+.info_menu .logo  img{
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+}
+header .info_menu ul{
+    float: right;
+    height: 80px;
+    margin: 0px 0px 0px 195px;
+    display: flex;
+    list-style: none;
+
+}
+
+header .info_menu ul .navbar_item{
+    display: inline-block;
+    height: 76px;
+    margin:0px 30px 0px 30px;
+    padding: 0px;
+
+}
+header .info_menu ul li a{
+    color: #f4f4f4  ;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding:  5px 9px;
+}
+header .info_menu ul .navbar_item:hover {
+    color: #000;
+    transition: .5s;
+    background-color: #f5f5f500;
+    border-bottom:4px  solid black ;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 237, 239);
+}
+.container {
+    width: 70%;
+    height: 100%; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    justify-content: center;
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+p{
+    text-indent: 2em;   
+}
+
+.container .INTRODUCE {
+    padding: 20px 40px 20px 40px; 
+}
+.container .INTRODUCE h1{
+    text-align: center;
+
+}
+.container a:hover {
+    text-decoration: underline;
+}
+.container .Arabica{
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+}
+.container .Arabica h1{
+    margin: 0;
+    font-size: 18px;
+}
+.container .container_img{
+position: relative;
+}
+.container img{
+    width: 100%;
+    border-radius: 5px;
+}
+.container .Robusta{
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+}
+.container .Robusta h1{
+    margin: 0;
+    font-size: 18px;
+}
+.container .Culi{
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+}
+.container .Culi h1{
+    margin: 0;
+    font-size: 18px;
+}
+.container .Moca{
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+}
+.container .Moca h1{
+    margin: 0;
+    font-size: 18px;
+}
+.container .Cherry{
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+}
+.container .Cherry h1{
+    margin: 0;
+    font-size: 18px;
+}
+.container .Catimor{
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+}
+.container .Catimor h1{
+    margin: 0;
+    font-size: 18px;
+}
+.container .other{
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+}
+.container .other h1{
+    margin: 0;
+    font-size: 18px;
+}
+.container .other ul{
+    padding: 20px 40px 20px 40px;
+}
+.container .combine h1{
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 20PX;
+}
+.container .combine p{
+    padding: 20px 40px 20px 40px;
+}

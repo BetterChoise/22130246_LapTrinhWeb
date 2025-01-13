@@ -1,0 +1,188 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fBE7D3;
+    height: 100vh;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: rgb(85, 85, 85);
+    margin: 0px;
+    padding-top: 5px;
+}
+.menu{
+    font-family:  sans-serif;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-bottom:  1px solid #f4f4f4;
+    background-color: rgba(230, 176, 122, 0.8);
+}
+.logo{
+    margin-left: 60px;
+    width: 80px;
+    margin-top: 10px;
+    list-style: none;
+}
+.menu .logo  img{
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+}
+header .menu ul.menu_nav{
+     float: right; 
+    height: 80px; 
+    padding-left: 600px;
+    margin: auto;
+}
+
+header .menu  ul li{
+    display: inline-block;
+    position: relative; 
+}
+
+header .menu ul li a.navbar_item{
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 97px;
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu ul.login_navbar{
+    position: absolute;
+    background-color: rgba(125, 107, 89, 0.7);
+    z-index: 2;
+    padding: 0px;
+    width: 127px;
+    height: 12  0px;
+    display: none;
+    
+    }
+    .menu li:hover ul.login_navbar{   
+    display: block;
+    }
+    .menu ul.login_navbar li{
+        display: flex;
+    }
+    
+    .menu ul.login_navbar a{
+        color: #f4f4f4;
+        text-decoration: none;
+        line-height: 40px;
+        padding-left: 20px;
+        padding-right: 31px;
+    }
+    .menu ul.login_navbar li:hover {
+        background-color: rgba(186, 158, 131,1);
+    }
+    header .menu>ul>li:hover>a {
+        color: #003366;
+        border-bottom: 5px solid #003366;
+        transition: 0.75s cubic-bezier(0.165, 0.82, 0.075, 1);
+    }
+
+/* kết thúc header */
+.profile_block  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.profile_main{
+    width: 400px;
+    height:370px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    padding : 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.profile_main h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #464646;
+    margin-bottom: 0px;
+}
+.profile_main h4{
+    text-align: center;
+    margin-top: 12px;
+    color: #555555;
+}
+.login-name{
+	display: flex;
+}
+.login_name{
+	margin-left: 35px;
+}
+.login-name_data{
+    border-radius: 5px;
+    margin-left: 12px;
+    width: 250px;
+    height: 20px;
+} 
+.Address{
+    display: flex;
+    margin-top: 20px;
+}
+.locate{
+    margin-left: 56px;
+    padding-right: 11.5px;
+}
+.locate_data{
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+}
+.email{
+    display: flex;
+    margin-top: 20px;
+}
+.phone{
+    display: flex;
+    margin-top: 20px;
+}
+.phone-number{
+   margin-left: 13px; 
+}
+.phonenuber_data{
+    border-radius: 5px;
+    margin-left: 11.5px;
+    width: 250px;
+    height: 20px;
+}
+.email{
+  display: flex; 
+  margin-top: 20px; 
+}
+.email-header{
+  margin-left: 66px;
+}
+.email_data{
+    border-radius: 5px;
+    margin-left: 12px;
+    width: 250px;   
+    height: 20px;
+}
+.save{
+    text-align:center;
+}
+.save_button{
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.save_button:hover{
+    background-color: #e60000;
+}
